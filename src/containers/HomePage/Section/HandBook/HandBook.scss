@@ -1,0 +1,25 @@
+.medicial-facility {
+    background-color: #f4f4f4;
+    border-top: 2px solid #ebe9fe;
+    border-bottom: 2px solid #ebe9fe;
+    padding: 30px 0 !important;
+
+    .medicial-facility__container{
+        margin: 10px 0;
+    }
+}
+
+.handbook-box {
+    display: flex !important;
+    justify-content: flex-start !important;
+    margin: 10px;
+
+    .title-container {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    &:hover {
+        color: #45c3d2;
+    }
+}

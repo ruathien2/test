@@ -1,0 +1,227 @@
+.wrapper {
+    background-color: #fff;
+}
+
+.home-header-container {
+    width: 1200px;
+    height: 60px;
+    padding: 0 120px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    margin: 0 auto;
+
+    .home-header-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .left-content {
+            display: flex;
+            width: 25%;
+            align-items: center;
+            justify-content: center;
+
+            .header-logo {
+
+                // background: url('../../assets/images/bookingcare-2020.svg') center center no-repeat;
+                img {
+                    background-size: 40%;
+                    width: 80%;
+                    height: 100%;
+                    cursor: pointer;
+                }
+            }
+
+            i {
+                font-size: 20px;
+                color: grey;
+                cursor: pointer;
+                margin-right: 10px;
+            }
+        }
+
+        .center-content {
+            display: flex;
+            width: 60%;
+            align-items: center;
+            justify-content: space-between;
+            // border: 1px solid #000;
+
+            .child-content {
+                .sub-title {
+                    font-weight: 400;
+                    font-size: 10px;
+                    color: #7a7a7a;
+                }
+
+                .sub-title:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .right-content {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .support {
+                padding: 0 30px;
+                display: flex;
+                align-items: center;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+
+            .support:hover {
+                cursor: pointer;
+                color: #45c3d2;
+            }
+
+            .flag-language-vn,
+            .flag-language-en {
+                padding: 0 2px;
+                cursor: pointer;
+            }
+
+            .flag-language-vn {
+                &.active {
+                    color: #45c3d2;
+                }
+            }
+
+            .flag-language-en {
+                &.active {
+                    color: #45c3d2;
+                }
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    display: flex;
+    flex-direction: column;
+    // position: relative;    
+    background: url('../../assets/images/bookingcare-cover-4.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+
+    .content-up {
+        // border: 1px solid red;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+        ;
+        height: 60%;
+
+        .title-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            margin-top: 250px;
+            margin-bottom: 15px;
+
+            .title-1 {
+                text-align: center;
+                color: #fff;
+                text-shadow: 1px 1px 1px #333;
+                font-size: 32px;
+                // margin-top: 15px;
+            }
+
+            .title-2 {
+                text-align: center;
+                color: #fff;
+                text-shadow: 1px 1px 1px #333;
+                font-size: 40px;
+
+            }
+
+            .search {
+                width: fit-content;
+                // display: flex;
+                margin: 15px auto;
+                // justify-content: center;
+                background: #f7d800;
+                padding: 5px 10px;
+                border-radius: 20px;
+
+                i {
+                    margin: 0 5px;
+                }
+
+                input {
+                    border: transparent;
+                    background-color: inherit;
+                    height: 30px;
+                    width: 500px;
+                    outline: none;
+                    caret-color: #fff;
+                    color: #c34dfa;
+                    padding: 0 10px;
+                }
+            }
+        }
+
+    }
+
+    .content-down {
+        // border: 1px solid blueviolet;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+        height: 40%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding-bottom: 10px;
+
+        .options {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: calc(100vh - 95vh);
+
+            .option-child {
+                width: 120px;
+                // border: 1px solid orange;
+                text-align: center;
+
+                .icon-child {
+                    text-align: center;
+
+                    img {
+                        box-shadow: 0px 1px 5px 5px #ddd;
+                        width: 50px;
+                        height: 50px;
+                        background: #fff;
+                        border-radius: 100%;
+                        padding: 4px;
+                        margin: 2px auto;
+                        background-size: 32px;
+                    }
+                }
+
+                .text-child {
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+            }
+
+            .option-child:hover {
+                cursor: pointer;
+
+                .text-child {
+                    color: #45c3d2;
+                }
+            }
+        }
+    }
+}

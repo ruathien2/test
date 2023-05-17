@@ -1,0 +1,40 @@
+.oustanding-doctor {
+    padding: 30px 0 !important;
+    height: 500px;
+
+}
+
+.border-box {
+    padding: 10px;
+    height: 225px;
+    &:hover {
+        cursor: pointer;
+        color: #45c3d2;
+    }
+}
+
+
+.box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img-doctor {
+    background-color: #e7e4e4;
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50% !important;
+    background-repeat: no-repeat;
+}
+
+.des-doctor {
+    padding-top: 10px;
+    text-align: center;
+}
+.des-job {
+    font-size: 12px;
+    color: #909090;
+}

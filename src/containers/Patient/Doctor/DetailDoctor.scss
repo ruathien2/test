@@ -1,0 +1,74 @@
+.doctor-detail-container {
+    max-width: 1200px;
+    margin: 10px auto;
+    height: 700px;
+
+    .intro-doctor {
+        display: flex;
+        flex-direction: row;
+
+        .content-left {
+            width: 15%;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+
+            img {
+                background-color: #e7e4e4;
+                width: 120px !important;
+                height: 120px !important;
+                border-radius: 50% !important;
+                background-repeat: no-repeat;
+                object-fit: cover;
+            }
+
+        }
+
+        .content-right {
+            display: flex;
+            flex-direction: column;
+            height: 140px;
+            width: 85%;
+            padding: 10px;
+
+            .up {
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+            .down {
+                padding-top: 5px;
+            }
+        }
+    }
+
+    .schedule-doctor {
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+        min-height: 200px;
+        margin-bottom: 20px;
+
+        .content-left {
+            width: 50%;
+            border-right: 1px solid #ddd;
+
+            .btn-vi {
+                width: 120px;
+            }
+
+            .btn-en {
+                width: 170px;
+            }
+
+            button {
+                background-color: aqua;
+            }
+        }
+
+        .content-right {
+            width: 50%;
+        }
+    }
+
+}

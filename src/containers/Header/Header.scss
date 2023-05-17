@@ -1,0 +1,65 @@
+@import "../../styles/common.scss";
+
+.header-container {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    background-color: $colormain;
+    color: $common-text-color;
+    height: 40px;
+    position: relative;
+
+    .btn-logout {
+        color: $common-text-color;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 10px;
+
+        &:hover {
+            background-color: darken($colormain, 5);
+        }
+
+        i {
+            font-size: $base-size + 1px;
+        }
+    }
+
+    .languages {
+        display: flex;
+       .box {
+        margin: 0 10px 0 10px;
+        border: none;
+        flex-direction: row;
+        gap: 10px;
+        
+        .language-en{
+            cursor: pointer;
+            margin-left: 3px;
+        }
+
+        .language-vi {
+            cursor: pointer;
+            margin-right: 3px;
+
+        }
+
+        .language-en {
+            &.active {
+                color: red;
+            }
+        }
+
+        .language-vi {
+            &.active {
+                color: aqua;
+            }
+        }
+       }
+    }
+
+    .welcome {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+}

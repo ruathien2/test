@@ -1,0 +1,29 @@
+.preview-img-container {
+
+
+
+    .previewImage {
+        padding: 5px;
+        background-color: #ccc;
+    }
+
+    .lab-upload {
+        background: #ccc;
+        padding: 5px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .preview-img {
+        width: 100%;
+        border: 1px solid red;
+        margin-top: 10px;
+        height: 150px;
+        background: center center no-repeat;
+        background-size: contain;
+    }
+}

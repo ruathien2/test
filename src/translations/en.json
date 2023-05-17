@@ -1,0 +1,108 @@
+{
+    "home-header" : {
+        "specialist": "Specialist",
+        "searchdoctor": "Find A Doctor By Specialty",
+        "healthfacilities": "Health Facilities",
+        "choosehospitalclinic": "Choose Hospital Clinic",
+        "doctor": "Doctor",
+        "chooseagooddoctor": "Choose a good doctor",
+        "checkuppackage": "Checkup Package",
+        "generalhealthcheck": "General health check",
+        "support": "Support",
+        "welcome": "Welcome"
+    },
+    "banner": {
+        "medicalbackground" : "MEDICAL BACKGROUND",
+        "comprehensivehealthcare" : "COMPREHENSIVE HEALTH CARE",
+        "specialistexamination": "Specialist Examination",
+        "remoteexamination": "Remote Examination",
+        "generalexamination": "General Examination",
+        "medicaltests": "Medical Tests",
+        "mentalhealth": "Mental Health",
+        "dentalexamination": "Dental Examination",
+        "surgerypackage": "Surgery Package",
+        "medicalproducts": "Medical Products",
+        "businesshealth": "Business Health"
+    },
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "Manage user using redux",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+        "admin": {
+            "manage-user": "User",
+            "manage-doctor": "Manage Doctor",
+            "manage-admin": "Manage Admin",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD Redux",
+            "clinic": "Clinic",
+            "manage-clinic": "Manage Clinic",
+            "specialty": "Speciatly",
+            "manage-specialty": "Manage Speciatly",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage Handbook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor's Schedule"
+        }
+    },
+    "manage-user": {
+        "add": "Add New User",
+        "email": "Email",
+        "password": "Password",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phoneNumber": "Phone Number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "image": "Image",
+        "save": "Save User",
+        "edit": "Save Change"
+    },
+    "manage-schedule" : {
+        "title": "Manage your doctor's visit plan",
+        "choose-doctor": "Choose Doctor",
+        "choose-date": "Choose Date",
+        "save": "Save Information"
+    },
+    "patient" : {
+        "detail-doctor" : {
+            "schedule": "Appointment",
+            "no-schedule": "The Doctor Does Not Have An Appointment During This Time, Please Choose Another Time !",
+            "choose": "Choose ",
+            "book-free": " And Set (Free)"
+        },
+        "doctor-schedule" : {
+            "text-address" : "Address",
+            "examination-price" : "Price",
+            "view-details" : "Xem Chi Tiết",
+            "payment-type" : "Kiểu Thanh Toán",
+            "hide-price-list" : "Ẩn Chi Tiết"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Tạo Thêm Thông Tin Bác Sĩ",
+            "select-doctor": "Chọn Bác Sĩ",
+            "intro": "Thông Tin Giới Thiệu",
+            "add": "Tạo Thông Tin",
+            "save": "Lưu Thông Tin",
+            "price": "Giá Khám Bệnh",
+            "payment": "Phương Thức Thanh Toán",
+            "province": "Tỉnh Thành",
+            "name-clinic": "Tên Phòng Khám",
+            "address-clinic": "Địa Chỉ Phòng Khám",
+            "note": "Ghi Chú"
+        }
+    }
+}

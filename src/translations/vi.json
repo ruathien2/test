@@ -1,0 +1,110 @@
+{
+   
+    "home-header" : {
+        "specialist": "Chuyên Khoa",
+        "searchdoctor": "Tìm Bác Sĩ Theo Chuyên Khoa",
+        "healthfacilities": "Cơ Sở Y Tế",
+        "choosehospitalclinic": "Chọn Bệnh Viện Phòng Khám",
+        "doctor": "Bác Sĩ",
+        "chooseagooddoctor": "Chọn Bác Sĩ Giỏi",
+        "checkuppackage": "Gói Khám",
+        "generalhealthcheck": "Khám Sức Khỏe Tổng Quát",
+        "support": "Hỗ Trợ",
+        "welcome": "Xin Chào"
+    },
+    "banner": {
+        "medicalbackground" : "NỀN TẢNG Y TẾ",
+        "comprehensivehealthcare" : "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "specialistexamination": "Khám Chuyên Khoa",
+       "remoteexamination": "Khám Từ Xa",
+       "generalexamination": "Khám Tổng Quát",
+       "medicaltests": "Xét Nghiệm Y Học",
+       "mentalhealth": "Sức Khỏe Tinh Thần",
+       "dentalexamination": "Khám Nha Khoa",
+       "surgerypackage": "Gói Phẫu Thuật",
+       "medicalproducts": "Sản Phẩm Y Tế",
+       "businesshealth": "Sức Khỏe Doanh Nghiệp"
+    },
+    "menu": {
+        "system": {
+            "header": "Hệ thống",
+            "system-administrator": {
+                "header": "Quản trị hệ thống",
+                "user-manage": "Quản lý người sử dụng",
+                "user-redux": "Quản lý user redux",
+                "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+            },
+            "system-parameter": {
+                "header": "Tham số hệ thống"
+            }
+        },
+        "admin": {
+            "manage-user": "Người Dùng",
+            "manage-doctor": "Quản Lý Bác Sĩ",
+            "manage-admin": "Quản Lý Admin",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD Redux",
+            "clinic": "Phòng Khám",
+            "manage-clinic": "Quản Lý Phòng Khám",
+            "specialty": "Chuyên Khoa",
+            "manage-specialty": "Quản Lý Chuyên Khoa",
+            "handbook": "Cẩm Nang",
+            "manage-handbook": "Quản Lý Cẩm Nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản Lý Kế Hoạch Khám Bệnh",
+            "manage-patient": "Quản Lý Bệnh Nhân Khám Bệnh"
+        }
+    },
+    "manage-user": {
+        "add": "Thêm Mới Người Dùng",
+        "email": "Email",
+        "password": "Mật Khẩu",
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "phoneNumber": "Số Điện Thoại",
+        "address": "Địa Chỉ",
+        "gender": "Giới Tính",
+        "position": "Chức Danh",
+        "role": "Vai Trò",
+        "image": "Hình Ảnh",
+        "save": "Lưu Người Dùng",
+        "edit" : "Lưu Thay Đổi"
+    },
+    "manage-schedule" : {
+        "title": "Quản Lý Kế Hoạch Khám Bệnh Của Bác Sĩ",
+        "choose-doctor": "Chọn Bác Sĩ",
+        "choose-date": "Chọn Ngày",
+        "save": "Lưu Thay Đổi"
+    },
+    "patient" : {
+        "detail-doctor" : {
+            "schedule": "Lịch Khám",
+            "no-schedule": "Bác Sĩ Không Có Lịch Hẹn Trong Thời Gian Này, Vui Lòng Chọn Thời Gian Khác !",
+            "choose": "Chọn ",
+            "book-free": " Và Đặt (Miễn Phí)"
+        },
+        "doctor-schedule" : {
+            "text-address" : "Địa Chỉ Phòng Khám",
+            "examination-price" : "Giá Khám ",
+            "view-details" : "Xem Chi Tiết",
+            "payment-type" : "Kiểu Thanh Toán",
+            "hide-price-list" : "Ẩn Chi Tiết"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Tạo Thêm Thông Tin Bác Sĩ",
+            "select-doctor": "Chọn Bác Sĩ",
+            "intro": "Thông Tin Giới Thiệu",
+            "add": "Tạo Thông Tin",
+            "save": "Lưu Thông Tin",
+            "price": "Giá Khám Bệnh",
+            "payment": "Phương Thức Thanh Toán",
+            "province": "Tỉnh Thành",
+            "name-clinic": "Tên Phòng Khám",
+            "address-clinic": "Địa Chỉ Phòng Khám",
+            "note": "Ghi Chú"
+        }
+    }
+}

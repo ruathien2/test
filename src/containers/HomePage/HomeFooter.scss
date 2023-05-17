@@ -1,0 +1,37 @@
+.homefooter-container {
+    height: 78px;
+    background: #64b9e5;
+
+    .homefooter-box {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 1200px;
+        height: inherit;
+        margin: 0 auto;
+        color: #fff;
+
+        .box-left {
+            width: 100%;
+            // height: inherit;
+        }
+
+        .box-right {
+            display: flex;
+            justify-content: flex-end;
+            // border: 1px solid grey;
+            width: 100%;
+            // height: inherit;
+
+            .icon-edit {
+                font-size: 35px;
+                padding: 0 0 0 10px;
+            }
+
+            i {
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.bookingcare {
+    padding: 0 !important;
+    height: 450px !important;
+
+    .bokkingcare-box {
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        height: inherit;
+        margin: 0 auto;
+        padding: 30px 10px;
+
+        .bookingcare-header {
+            
+            h3 {
+                font-weight: 600;
+                padding-bottom: 20px;
+            }
+        }
+
+        .bookingcare-body {
+            display: flex;
+            flex-direction: row;
+            .box-left,
+            .box-right {
+                height: 100%;
+                padding: 0 5px;
+                display: flex;
+                align-items: center;
+            }
+
+            .box-right {
+                width: 100%;
+                display: flex;
+                padding: 0px 50px;
+                align-items: flex-start;
+            }
+        }
+
+    }
+}

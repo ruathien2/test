@@ -1,0 +1,107 @@
+.section-specialty {
+    height: 329px;
+    padding: 30px 0;
+
+    .section-container {
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+            margin-bottom: 20px;
+
+            h3 {
+                font-weight: 600;
+            }
+
+            button {
+                border: none;
+                text-transform: uppercase;
+                color: #bab8b8;
+                border-radius: 5px;
+                font-size: 12px;
+                padding: 0 10px;
+
+                &:hover {
+                    background-color: #f7d800;
+                    color: #fff;
+                }
+            }
+        }
+
+        .section-body {
+
+            .img-customie {
+
+                &:hover {
+                    cursor: pointer;
+                    color: #45c3d2;
+                }
+            }
+
+            .customie {
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+
+                img {
+                    height: 150px;
+                    width: 278px;
+                }
+
+
+            }
+            .title-container {
+                padding: 5px 10px;
+            }
+
+
+            .slick-prev {
+                left: -10px !important;
+                z-index: 10 !important;
+                width: 44px !important;
+                height: 48px !important;
+                background-color: #fff !important;
+                border: 1px solid #d7d7d7 !important;
+                border-radius: 10% !important;
+
+
+                &:hover {
+                    background-color: #d7d7d7 !important;
+                    color: #fff !important;
+                }
+            }
+
+            .slick-next {
+                right: -10px !important;
+                width: 44px !important;
+                height: 48px !important;
+                background-color: #fff !important;
+                border: 1px solid #d7d7d7 !important;
+                border-radius: 10% !important;
+
+                &:hover {
+                    background-color: #d7d7d7 !important;
+                    color: #fff !important;
+                }
+            }
+
+            .slick-disabled {
+                display: none !important;
+            }
+
+            .slick-prev::before,
+            .slick-next::before {
+                font-family: FontAwesome !important;
+                // content: "/e257" !important;
+                color: #000 !important;
+            }
+        }
+    }
+}
